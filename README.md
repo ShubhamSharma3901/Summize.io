@@ -2,7 +2,8 @@
 
 Welcome to Summize.io, your go-to platform for unlocking the power of concise knowledge extraction. Say goodbye to information overload and lengthy articles—Summize.io leverages cutting-edge AI technology to distill the essence of any article with just a click.
 
-(https://github.com/ShubhamSharma3901/Summize.io/assets/139959222/a246fdc4-17c3-4b5a-9c57-8b9418807865)
+
+![Summize io](https://github.com/ShubhamSharma3901/Summize.io/assets/139959222/4104f86f-8254-41fb-8e58-d28444b9facf)
 
 Link: [Summize.io](https://summize-io.vercel.app/)
 
