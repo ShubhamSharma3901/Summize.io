@@ -4,16 +4,16 @@ const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full mb-10 mt-4 pt-3">
-        <div className="flex justify-center items-center h-full">
+        <div className="flex justify-center items-center">
           <img
             src={logo}
             alt="sumz-logo"
-            className="w-[3rem] object-contain mr-2"
+            className="max-w-[3rem] object-contain"
           />
           <img
             src={text}
-            alt="sumz-logo"
-            className="w-[10rem] object-contain"
+            alt="sumz-text-logo"
+            className="w-[8rem] object-contain"
           />
         </div>
 

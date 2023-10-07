@@ -35,11 +35,13 @@ const Demo = () => {
       localStorage.setItem("articles", JSON.stringify(updatedArticles));
     }
   };
-  const handleCopy = (copyURL)=>{
+  const handleCopy = (copyURL) => {
     setCopied(copyURL);
     navigator.clipboard.writeText(copyURL);
-    setTimeout(()=>{ setCopied(false)}, 3000);
-  }
+    setTimeout(() => {
+      setCopied(false);
+    }, 3000);
+  };
 
   return (
     <section className="mt-16 w-full max-w-xl">
@@ -79,7 +81,7 @@ const Demo = () => {
                 key={`link-${index}`}
                 className="link_card"
                 onClick={() => setArticle(item)}>
-                <div className="copy_btn" onClick={()=>handleCopy(item.url)}>
+                <div className="copy_btn" onClick={() => handleCopy(item.url)}>
                   <img
                     src={copied === item.url ? tick : copy}
                     alt="copy_btn"
